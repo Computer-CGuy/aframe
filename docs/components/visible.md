@@ -57,7 +57,8 @@ visibility on an event.
 ```html
 <!-- Wait 1 second before showing the entity. -->
 <a-entity
-  animation="property: visible; to: true; startEvents: materialtextureloaded"></a-entity>
+  animation="property: visible; to: true; startEvents: materialtextureloaded">
   material="src: #myTexture"
   visible="false">
+ </a-entity>
 ```
